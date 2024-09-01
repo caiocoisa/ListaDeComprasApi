@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "ListaDeComprasApi.Controllers.ListaDeComprasController",
+    "Method": "AdicionarListaDeCompras",
+    "RelativePath": "ListaDeCompras",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "listaDeCompras",
+        "Type": "ListaDeComprasApi.Models.ListaDeCompras",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ListaDeComprasApi.Controllers.ListaDeComprasController",
+    "Method": "ObterTodasListaDeCompras",
+    "RelativePath": "ListaDeCompras",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ListaDeComprasApi.Models.ListaDeCompras, ListaDeComprasApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
